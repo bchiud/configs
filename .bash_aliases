@@ -13,8 +13,6 @@ alias py3="python3"
 alias rm="rm -i"
 
 # A9
-alias a9nav="sudo python3 -m a9nav --settings"
-alias a9joy="sudo python3 run_controller_cli.py PRO_CONTROLLER -r D0:55:09:A7:9C:B5 --log-races --garage"
+alias a9nav="sudo python3 -m a9-capture-experiements/a9nav --settings"
+alias a9joy="sudo python3 a9joycontrol/run_controller_cli.py PRO_CONTROLLER -r D0:55:09:A7:9C:B5 --log-races --garage"
 # alias a9joy="sudo python3 run_controller_cli.py PRO_CONTROLLER -r BC:CE:25:7C:E6:EC --log-races --garage"
-alias a9scp="scp ~/Documents/*.yaml pi@192.168.1.152:~/Documents/"
-# alias a9scp="scp ~/Documents/*.yaml pi@192.168.1.188:~/Documents/"
