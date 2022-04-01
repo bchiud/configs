@@ -20,5 +20,5 @@ function a9joy() {
     sudo python3 ~/Documents/a9joycontrol/run_controller_cli.py PRO_CONTROLLER -r ${bt_addr} --log-races --garage "../a9configs/$1_mp1_garage.yaml"
 }
 function a9nav() {
-    sudo python3 -m a9nav --settings "../a9configs/$1_switch.yaml" --league "$2"
+    sudo python3 -m a9nav --settings "../a9configs/$1_switch.yaml" --league "$2" --logfile $(date -I).log
 }
