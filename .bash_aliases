@@ -17,6 +17,9 @@ alias a9config="git -C ~/Documents/a9configs/ pull"
 function a9joy() {
     echo "Checking a9configs..."
     a9config
+
+    echo "Checing a9joycontrol..."
+    git -C  ~/Documents/a9joycontrol/ pull
     
     echo "Starting old bot..."
     bt_addr='D0:55:09:A7:9C:B5'
