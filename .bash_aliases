@@ -18,7 +18,7 @@ function a9joy() {
     echo "Checking a9configs..."
     a9config
 
-    echo "Checing a9joycontrol..."
+    echo "Checking a9joycontrol..."
     git -C  ~/Documents/a9joycontrol/ pull
     
     echo "Starting old bot..."
@@ -30,7 +30,7 @@ function a9nav() {
     echo "Checking a9configs..."
     a9config
     
-    echo "Checing a9joycontrol..."
+    echo "Checking a9joycontrol..."
     git -C  ~/Documents/a9joycontrol/ pull
     
     echo "Starting CV bot..."
