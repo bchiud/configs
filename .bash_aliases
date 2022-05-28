@@ -1,4 +1,6 @@
 # Applications
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 alias sublime="open -a \"Sublime Text\""
 
 # Git
