@@ -26,8 +26,12 @@ function a9joy() {
     echo "Checking a9configs..."
     a9config
 
+    echo ""
+
     echo "Checking a9joycontrol..."
     git -C  ~/Documents/a9joycontrol/ pull
+
+    echo ""
     
     echo "Starting old bot..."
     bt_addr='D0:55:09:A7:9C:B5'
@@ -37,9 +41,13 @@ function a9joy() {
 function a9nav() {
     echo "Checking a9configs..."
     a9config
+
+    echo ""
     
     echo "Checking a9joycontrol..."
     git -C  ~/Documents/a9joycontrol/ pull
+
+    echo ""
     
     echo "Starting CV bot..."
     sudo python3 -m a9nav --settings "../a9configs/$1.yaml" --mp1.league ${2:-bronze} --mp2.league ${3:-bronze} --logfile $(date -I).log
