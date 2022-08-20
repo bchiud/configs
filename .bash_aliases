@@ -8,6 +8,7 @@ alias gitage='for k in $(git branch -r | \
   perl -pe '\''s/^..(.*?)( ->.*)?$/\1/'\''); \
   do echo -e $(git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k -- | \
      head -n 1)\\t$k; done | sort -r'
+alias gitloc='git ls-files | while read f; do git blame --line-porcelain $f | grep "^author "; done | sort -f | uniq -ic | sort -n'
 
 # Shell
 alias ..="cd .."
