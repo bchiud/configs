@@ -37,7 +37,7 @@ function a9joy() {
     echo "Starting old bot..."
     bt_addr='D0:55:09:A7:9C:B5'
     # bt_addr='BC:CE:25:7C:E6:EC'
-    sudo python3 ~/Documents/a9joycontrol/run_controller_cli.py PRO_CONTROLLER -r ${bt_addr} --log-races --garage "../a9configs/$1_mp1_garage.yaml"
+    sudo python3 ~/Documents/a9joycontrol/run_controller_cli.py PRO_CONTROLLER -r ${bt_addr} --log-races --garage "../a9configs/garages/mp_$1.yaml"
 }
 function a9nav() {
     echo "Checking a9configs..."
