@@ -1,3 +1,5 @@
+source ~/.bash_aliases
+
 # Applications
 alias sublime="open -a \"Sublime Text\""
 
