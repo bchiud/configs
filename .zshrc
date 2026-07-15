@@ -18,6 +18,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 . "$HOME/.local/bin/env"
 
 # Shell
+setopt INTERACTIVE_COMMENTS
 alias ..="cd .."
 alias la="ls -alG"
 alias ll="ls -lG"
